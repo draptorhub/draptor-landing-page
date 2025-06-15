@@ -65,6 +65,19 @@ h6 {
     color: #ffffff;
 }
 
+.brand-logo{
+    max-height: 200px;
+}
+
+.brand-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* ------------------ Header CSS ------------------- */
 .header {
@@ -87,6 +100,9 @@ h6 {
 
 .header .logo {
     float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .header .logo h1 {
@@ -103,7 +119,7 @@ h6 {
 .header .logo img {
     padding: 0;
     margin: 0;
-    max-height: 100%;
+    max-height: 42px;
 }
 
 
@@ -554,6 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about .about-col {
     background: #ffffff;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .about .about-col:hover {
