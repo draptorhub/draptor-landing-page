@@ -1,8 +1,8 @@
 console.log("Form js included");
 
-const ssl = "http"
-const domain = "localhost:8080";
-const pageId = "688c7726cbe817684024c9d4"
+const ssl = "https"
+const domain = "mockapi.draptor.in";
+const pageId = "688d090ccd22f2af17e2979a"
 
 document.getElementById('messageForm').addEventListener('submit', function(e) {
     e.preventDefault(); // ✅ Prevents page reload/redirect
