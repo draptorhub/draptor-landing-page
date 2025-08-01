@@ -690,7 +690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 0.3s;
 }
 
-.single-service i {
+.single-service i, ion-icon {
     font-size: 64px;
     color: #1dbf73;
 }
@@ -1600,4 +1600,13 @@ body.mobile-nav-active #mobile-nav-toggle {
         margin-bottom: 15px;
         padding: 0;
     }
+}
+
+#aboutAlan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
