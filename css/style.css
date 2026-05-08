@@ -338,6 +338,7 @@ h6 {
     text-transform: uppercase;
     outline: none;
     text-decoration: none;
+    padding-top: 7px;
 }
 
 .nav-menu li:hover > a,
@@ -1633,4 +1634,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+#registerNow {
+    background-color: #17a865 !important;
+    color: #000 !important;
+    height: 35px;
+    padding-top: 7px;
+}
+
+.registerStyle{
+    padding: 0px 270px;
+}
+
+@media screen and (max-width: 768px) {
+    #aboutAlan {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .registerStyle {
+        padding: 0px;
+    }
+    
 }
