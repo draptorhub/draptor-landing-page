@@ -65,7 +65,7 @@ payBtn.addEventListener("click", async () => {
 
         // YOUR BACKEND URL
         const BASE_URL =
-            "http://localhost:5000/api/razorpay";
+            "https://api.draptor.in/api/razorpay";
 
 
 
